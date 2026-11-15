@@ -1,0 +1,15 @@
+include: package:lints/recommended.yaml
+
+# Match the editor's width so `dart format` and the IDE stop fighting.
+formatter:
+  page_width: 120
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+
+linter:
+  rules:
+    # This is a published base library — every public symbol carries docs.
+    - public_member_api_docs
