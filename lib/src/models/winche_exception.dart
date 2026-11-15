@@ -1,5 +1,5 @@
 /// What kind of failure a [WincheException] is: one list for every Winche
-/// package and every Winche API, the codes Firebase uses.
+/// package and every Winche API.
 ///
 /// Switch on it instead of on exception types:
 ///

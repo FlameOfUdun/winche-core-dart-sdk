@@ -55,7 +55,7 @@ final class WincheIdentity {
   ///
   /// * **Case-insensitive filesystems cannot collapse it.** On NTFS and
   ///   default macOS APFS, `User1` and `user1` are one directory. Backends do
-  ///   issue case-sensitive ids — Firebase UIDs are mixed-case base62 — so a
+  ///   issue case-sensitive ids (mixed-case base62 is common), so a
   ///   service using [id] raw would let one user read another's cached state.
   ///   An all-lowercase key cannot be folded onto anything.
   /// * **Every id yields a usable name.** An email, a DN, a path separator —
